@@ -1,0 +1,38 @@
+{
+  "name": "reactexpensee",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chart.js": "^2.7.2",
+    "firebase": "^4.12.1",
+    "moment": "^2.22.1",
+    "react": "^16.4.0",
+    "react-accessible-accordion": "^2.4.0",
+    "react-chartjs-2": "^2.7.2",
+    "react-countup": "^3.0.3",
+    "react-csv": "^1.0.14",
+    "react-datepicker": "^1.4.1",
+    "react-dom": "^16.4.0",
+    "react-fader": "^2.0.3",
+    "react-router-dom": "^4.2.2",
+    "react-router-transition-switch": "^1.1.0",
+    "react-scripts": "1.1.4",
+    "react-typed": "^1.0.8"
+  },
+  "babel": {
+    "env": {
+      "production": {
+        "plugins": [
+          "transform-react-constant-elements",
+          "transform-react-inline-elements"
+        ]
+      }
+    }
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
